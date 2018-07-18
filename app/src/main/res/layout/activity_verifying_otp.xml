@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.foodsingh.mindwires.foodsingh.verifying_otp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#673AB7">
+
+            <ImageView
+                android:id="@+id/main_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:alpha="0.8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/xx" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/resendotp"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/verify"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="69dp"
+            android:alpha="0.7"
+            android:background="@null"
+            android:text="Resend Code"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/fork"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignBottom="@+id/welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="5dp"
+            android:alpha="0.9"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#B3B6B7"
+            android:orientation="vertical"></LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/otp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="57dp"
+            android:alpha="0.85"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Awesome, Thanks"
+            android:textColor="#ffffff"
+            android:textSize="37dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Confirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/verify"
+            android:layout_marginTop="57dp"
+            android:alpha="0.8"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.9"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="#6e8b59"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Enter Code"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignBottom="@+id/welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="5dp"
+            android:alpha="0.9"
+            android:background="@drawable/ic_sentiment_satisfied_black_24dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

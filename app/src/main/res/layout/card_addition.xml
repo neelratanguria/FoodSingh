@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/r1"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/img_rev"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/img_temp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_toRightOf="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/img_rev"
+        android:layout_height="wrap_content"
+        android:id="@+id/r3"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:id="@+id/grp_cpn"
+            android:layout_height="40dp">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:maxLength="16"
+                android:id="@+id/code"
+                android:paddingStart="8dp"
+
+                android:paddingEnd="8dp"
+                android:background="@drawable/button"
+                android:textColor="@color/grey"
+                android:hint="Coupon Code"/>
+
+            <Button
+                android:id="@+id/enter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button"
+                android:clickable="true"
+                android:padding="3dp"
+                android:text="APPLY"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/grp_available_options"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/r3"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/r2"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:paddingLeft="1dp"
+            android:text="Available Options"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text=" >"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:layout_below="@+id/grp_available_options"
+        android:gravity="start"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/card_amounts"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Discount"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/delivery_charge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="4px"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="N/A"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/card_amounts"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:fontFamily="serif"
+                android:text="Sub Total"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/total_amount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/card_amounts"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="serif"
+                android:text="  ₹ 320"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/card_amounts"
+                android:fontFamily="serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="GST (5%)"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tax_amount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/card_amounts"
+                android:gravity="center_vertical"
+                android:fontFamily="serif"
+                android:text="  ₹ 0"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/card_amounts"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Delivery"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/dis_amt"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/card_amounts"
+                android:fontFamily="serif"
+                android:gravity="left"
+                android:text="Rs.10"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

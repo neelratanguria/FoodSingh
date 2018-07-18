@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "520687624604",
+    "firebase_url": "https://foodsingh-7b3f9.firebaseio.com",
+    "project_id": "foodsingh-7b3f9",
+    "storage_bucket": "foodsingh-7b3f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520687624604:android:741f509fa550b3c9",
+        "android_client_info": {
+          "package_name": "com.fsingh.pranshooverma.foodsingh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520687624604-nj92kae56igne2qa39sl07agt5hlmunn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fsingh.pranshooverma.foodsingh",
+            "certificate_hash": "e8a033749d8ff8842255fdf8cac3c141029b9595"
+          }
+        },
+        {
+          "client_id": "520687624604-l2a3f7pbtovgv8p8k4kkbpb71etn3qs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fsingh.pranshooverma.foodsingh",
+            "certificate_hash": "fd370bfa77b05ca7595791ace869c88ec964c228"
+          }
+        },
+        {
+          "client_id": "520687624604-0aaudtjb43ska1nbob0gkkma7euiaur5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fsingh.pranshooverma.foodsingh",
+            "certificate_hash": "03f202ff5b9ce25bbf40d33d518e8777bf8836ea"
+          }
+        },
+        {
+          "client_id": "520687624604-up83rqi7a08sthrkjdpvuo6gem3kqs7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0hZGoOO6yW9oPflMm9IN00fbdasqAvzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520687624604-up83rqi7a08sthrkjdpvuo6gem3kqs7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520687624604:android:af5b70902e65bf6a",
+        "android_client_info": {
+          "package_name": "com.foodsingh.mindwires.foodsingh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520687624604-bjurc7rejb4q8ql9hj46h7i706mj1bg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodsingh.mindwires.foodsingh",
+            "certificate_hash": "e8a033749d8ff8842255fdf8cac3c141029b9595"
+          }
+        },
+        {
+          "client_id": "520687624604-up83rqi7a08sthrkjdpvuo6gem3kqs7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0hZGoOO6yW9oPflMm9IN00fbdasqAvzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520687624604-up83rqi7a08sthrkjdpvuo6gem3kqs7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

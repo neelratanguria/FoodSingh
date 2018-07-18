@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="60dp"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.foodsingh.mindwires.foodsingh.menu"
+    android:baselineAligned="false"
+    android:id="@+id/dummypage"
+    >
+
+
+
+    <TextView
+        android:id="@+id/attack2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:background="#dac598"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_marginTop="175dp"
+        android:textColor="@color/text_color"
+        android:scrollbars="vertical"
+        android:padding="3dp"
+        android:text="Attack! On the Food."/>
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/advertisement1"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="SORT BY"
+        android:textColor="@color/grey"
+        android:visibility="invisible" />
+
+    <HorizontalScrollView
+        android:id="@+id/sortby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cuisine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/sort_back_gray"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:text="cuisine"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@+id/cuisine"
+                android:layout_weight="1"
+                android:background="@drawable/sort_back_gray"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:text="Time"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/combo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@+id/time"
+                android:layout_weight="1"
+                android:background="@drawable/sort_back_gray"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:text="mbo"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/drinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@+id/time"
+                android:layout_weight="1"
+                android:background="@drawable/sort_back_gray"
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:scaleType="centerCrop"
+                android:text="Drinks"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:id="@+id/noitem"
+                    android:textSize="20dp"
+                    android:textColor="@color/jhat"
+                    android:fontFamily="monospace"
+                    android:layout_margin="20dp"
+                    android:text="Sorry, no item available."
+                    android:gravity="center"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+
+                android:scrollbars="vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/recyclerView"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

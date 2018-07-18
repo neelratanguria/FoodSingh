@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@color/nav_bar_color">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:src="@drawable/roundlogo" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Welcome To \nFoodSingh"
+        android:textColor="@color/grey"
+        android:textSize="17dp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="10dp"
+        android:alpha="0.6"
+        android:background="@color/red" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+
+            android:id="@+id/loc"
+            android:layout_width="22dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/welcome"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="0.15"
+            android:alpha="0.6"
+            app:srcCompat="@drawable/locationdialog" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_below="@+id/welcome"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/loc"
+            android:layout_weight="0.6"
+            android:alpha="0.6"
+            android:fontFamily="monospace"
+            android:text="Location"
+            android:textColor="@color/red"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/l1"
+        android:alpha="0.6"
+        android:background="@color/red" />
+</RelativeLayout>

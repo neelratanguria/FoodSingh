@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EAE19E</color>
+    <color name="colorPrimaryDark">#EAE19E</color>
+    <color name="menu_text">#069655</color>
+    <color name="colorAccent">#f29908</color>
+    <color name = "background_color_new">#80ffffff</color>
+    <color name = "background_color_new_">#dee4c2</color>
+    <color name = "nav_bar_color">#EAE19E</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="text_color">#f29908</color>
+    <color name = "toolbar_color">#fafaf8</color>
+    <color name = "bottamtoolbar">#fafaf8</color>
+    <color name = "border">#fafaf8</color>
+    <color name = "navmenu">#fafaf8</color>
+    <color name="maincolor">#f7f7f2</color>
+    <color name = "extra1">#ece8b2</color>
+    <color name = "cart_bg">#f7f7f7</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="red">#FF0000</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name = "grey">#5c5d5e</color>
+    <color name = "button_background_menu">#A0A09F</color>
+    <color name = "jhat">#337044</color>
+    <color name ="clicked_button">#72895E</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="ganda">#966e8b59</color>
+    <color name = "sides_bg">#223E4A</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="refresh_progress_1">@color/colorPrimary</color>
+    <color name="refresh_progress_2">@color/cardview_dark_background</color>
+    <color name="refresh_progress_3">@color/white</color>
+
+    <color name="login_back">#6e8b59</color>
+
+</resources>

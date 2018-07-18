@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginBottom="7dp"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/card_amounts"
+        android:layout_width="match_parent"
+        android:id="@+id/l1"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:alpha="0.8"
+            android:scaleType="fitXY"
+            android:src="@drawable/whatsapp" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:id="@+id/title1"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="Title of title"
+                android:textColor="@color/bg_register"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="#50000000">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/content1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="body o" />
+
+<TextView
+    android:fontFamily="monospace"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Know More"
+    android:id="@+id/knowmore1"
+    android:layout_below="@+id/content1text"
+    android:textColor="@color/bg_login"
+    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/l111"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#50000000">
+
+    </LinearLayout>
+    
+   <LinearLayout
+       android:id="@+id/l11"
+       android:layout_marginTop="0dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginBottom="10dp"
+       android:layout_marginRight="10dp"
+       android:orientation="horizontal">
+
+       <TextView
+           android:gravity="left"
+           android:id="@+id/time1"
+           android:textStyle="bold"
+           android:fontFamily="monospace"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="4 days ago"/>
+
+       <TextView
+           android:layout_weight="1"
+           android:fontFamily="monospace"
+           android:gravity="right"
+           android:id="@+id/copycode"
+           android:layout_width="match_parent"
+           android:textColor="@color/bg_login"
+           android:layout_height="wrap_content"
+           android:text="COPY CODE"/>
+   </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/l2"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/card_amounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="4dp"
+            android:alpha="0.8"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/whatsapp" />
+
+        <LinearLayout
+
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:id="@+id/title2"
+                android:textColor="@color/bg_register"
+                android:gravity="left"
+                android:layout_marginBottom="5dp"
+                android:text="Title of title"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="#50000000">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/content2text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="ti--RVeLSSOgJe029M4p1Y1-oSoDmx5jp9BjQDffHb9wjCQaVtBVCxS"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Know More"
+                    android:id="@+id/knowmore2"
+                    android:layout_below="@+id/content2text"
+                    android:textColor="@color/bg_login"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/l222"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#50000000">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l22"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="left"
+            android:id="@+id/time2"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4 days ago"/>
+        <TextView
+            android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:gravity="right"
+            android:id="@+id/copycode2"
+            android:layout_width="match_parent"
+            android:textColor="@color/bg_login"
+            android:layout_height="wrap_content"
+            android:text="COPY CODE"/>
+
+
+    </LinearLayout>
+</LinearLayout>

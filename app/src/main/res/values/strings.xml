@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FoodSingh</string>
+    <string name="hint_email">Mobile Number with 91</string>
+    <string name="hint_password">Create Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">SignUp</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="hint_otp">Enter 4 digit code</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="title_activity_menu">menu</string>
+
+
+    <string name="server_url">http://foodsingh.com/app_files/user</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_category_wise">menu_category_wise</string>
+    <string name="title_activity_cart">cart</string>
+    <string name="title_activity_place_order_activity">place_order_activity</string>
+    <string name="title_activity_order_history">order_history</string>
+    <string name="title_activity_details">details</string>
+    <string name="title_activity_menu_item_detail">menu_item_detail</string>
+    <string name="title_activity_menu_item_details">menu_item_details</string>
+    <string name="title_activity_tracker">Tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_favourite_items">Favourite_items</string>
+    <string name="title_activity_set_password">set_password</string>
+    <string name="title_activity_web_view">web_view</string>
+    <string name="title_activity_about_us">about_us</string>
+</resources>

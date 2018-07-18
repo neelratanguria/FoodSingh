@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:background="@color/background_color_new_"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_marginTop="52dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    tools:context="com.foodsingh.mindwires.foodsingh.Signup_OTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/grp_details"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Details"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/txt_details"
+            android:paddingStart="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:id="@+id/tv_name"
+            android:layout_marginStart="20dp"
+            android:paddingStart="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:id="@+id/tv_mobile"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:paddingStart="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:id="@+id/tv_email"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:paddingStart="8dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/grp_details"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <LinearLayout
+
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grp_details"
+        android:alpha="1"
+        android:orientation="vertical"
+ >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textSize="22sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/txt_profile"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingStart="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Name"
+                android:gravity="center"
+                android:id="@+id/txt_name"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="monospace"
+                />
+
+
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:inputType="text"
+                android:background="@drawable/card_addition_edittext"
+                android:maxLength="50"
+                android:paddingStart="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="normal" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingStart="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Email"
+            android:gravity="center"
+            android:id="@+id/txt_email"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            />
+
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_addition_edittext"
+            android:textSize="12dp"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:paddingStart="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/grp_details"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textSize="22sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/txt_password"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingStart="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Old"
+                android:id="@+id/txt_old"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="monospace"
+                />
+
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/text_cur_pass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_addition_edittext"
+                android:textSize="12dp"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:maxLength="12"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="normal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingStart="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="New"
+            android:gravity="center"
+            android:id="@+id/txt_new"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            />
+
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/text_new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_addition_edittext"
+            android:paddingStart="10dp"
+            android:textSize="12dp"
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/button_save_change"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:textStyle="normal"
+            android:textColor="@color/white" />
+
+        <!-- Link to Login Screen -->
+
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

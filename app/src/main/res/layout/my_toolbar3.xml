@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@color/toolbar_color"
+
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/toolbarText"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:text="Cart"/>
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <ImageView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+
+        android:gravity="center"
+        android:src="@drawable/foodsingh"/>
+
+
+    <ImageView
+        android:layout_marginTop="6dp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        />
+</FrameLayout>
+
+
+

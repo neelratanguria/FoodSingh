@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foodsingh.mindwires.foodsingh.CheckoutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grp_place_order"
+        android:id="@+id/grp_comments"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMMENTS"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:background="@drawable/card_addition_edittext"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:fontFamily="monospace"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="start|top"
+            android:padding="8dp"
+            android:hint="Please enter your comments here..."
+            android:id="@+id/et_comments"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:background="@drawable/card_addition_edittext"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:background="@drawable/card_addition_edittext"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="monospace"
+        android:id="@+id/txt_address"
+        android:layout_below="@+id/grp_comments"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/txt_address"
+        android:layout_marginStart="8dp"
+        android:visibility="invisible"
+        android:id="@+id/grp_address_type"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="0dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_add_home"
+            android:background="@drawable/card_addition_edittext"
+            android:text="HOME"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="WORK"
+            android:id="@+id/btn_add_work"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp_address"
+        android:layout_below="@+id/grp_address_type"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="12dp"
+            >
+            <TextView
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:text="1st LANE"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="12sp"
+                android:background="@drawable/card_addition_edittext"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/et_lane1"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:background="@drawable/card_addition_edittext"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            >
+            <TextView
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:text="2nd LANE"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="12sp"
+                android:background="@drawable/card_addition_edittext"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/et_lane2"
+                android:paddingStart="8dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:paddingEnd="8dp"
+                android:background="@drawable/card_addition_edittext"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            >
+            <TextView
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:text="LOCALITY"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="12sp"
+                android:background="@drawable/card_addition_edittext"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/et_locality"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:background="@drawable/card_addition_edittext"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT"
+        android:visibility="gone"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="monospace"
+        android:id="@+id/txt_payment"
+        android:layout_below="@+id/grp_address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_below="@+id/txt_payment"
+        android:layout_marginStart="8dp"
+        android:id="@+id/grp_payment_type"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_cash"
+            android:background="@drawable/card_addition_edittext"
+            android:text="CASH ON DELIVERY"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="ONLINE"
+            android:clickable="true"
+            android:id="@+id/btn_online"
+            android:fontFamily="monospace"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/grp_place_order"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:textColor="#ffffff"
+        android:visibility="visible"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 350"
+            android:id="@+id/total_amount"
+            android:layout_marginStart="40dp"
+            android:textSize="32sp"
+            android:fontFamily="monospace"
+            android:layout_centerVertical="true"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:text="PLACE ORDER"
+            android:fontFamily="monospace"
+            android:id="@+id/btn_place_order"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:background="@drawable/back_checkout"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btm_toolbar"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/bottom_toolbar"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
